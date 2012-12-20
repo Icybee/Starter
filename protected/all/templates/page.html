@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="#{@language}">
+<head>
+<p:document:metas />
+<p:document:title />
+<p:document:css />
+<link href="/public/page.css" type="text/css" rel="stylesheet" />
+<link href="/public/modules.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body class="#{@css_class}">
+
+<p:call-template name="header" />
+
+<div class="container">
+	<p:breadcrumb />
+
+	<div class="body-inner">
+		<h1>#{@title}</h1>
+		<p:alerts />
+		
+		<div class="body-content">
+			<p:page:content id="body" title="Body of the page" />
+		</div>
+	</div>
+</div>
+
+<p:call-template name="footer" />
+</body>
+</html>
