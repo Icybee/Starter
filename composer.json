@@ -2,7 +2,8 @@
 	"minimum-stability": "dev",
 	"require": {
 		"php": ">=5.3.0",
-		"icanboogie/common": "dev-master as 1.0.4",
-		"icybee/icybee": "dev-master"
+		"icanboogie/common": "dev-master as 1.0.7",
+		"icybee/icybee": "*",
+		"icybee/installer" : "*"
     }
 }

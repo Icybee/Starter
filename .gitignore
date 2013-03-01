@@ -3,4 +3,8 @@
 .settings
 composer.lock
 composer.phar
+protected/all/config/core.php
+protected/all/config/user.php
+repository/local.sqlite
+repository/vars/*
 vendor

@@ -9,6 +9,12 @@ install:
 	
 	@php composer.phar install
 
+update:
+	@php composer.phar update
+	
+setup:
+	sudo chown www-data:www-data repository -R
+
 test:
 	@if [ ! -d "vendor" ] ; then \
 		make install ; \
