@@ -45,6 +45,7 @@ Options -Indexes
 RewriteEngine On
 
 # if a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-l
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
@@ -52,4 +53,4 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_URI} !\.(png|gif|jpg|jpeg|pdf|swf|flv|txt|ico)$
 
 # otherwise forward it to index.php
-RewriteRule . index.php
+RewriteRule . index.php [L,QSA]

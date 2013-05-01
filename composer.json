@@ -1,9 +1,16 @@
 {
 	"minimum-stability": "dev",
+
 	"require": {
 		"php": ">=5.3.0",
-		"icanboogie/common": "dev-master as 1.0.7",
 		"icybee/icybee": "*",
-		"icybee/installer" : "*"
-    }
+		"icybee/installer" : "*",
+		"icybee/module-articles": "*",
+		"icybee/module-comments": "*",
+		"icybee/module-seo": "*"
+	},
+
+	"autoload": {
+		"classmap": [ "protected/all/" ]
+	}
 }

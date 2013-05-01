@@ -9,6 +9,17 @@
  * file that was distributed with this source code.
  */
 
+if (!file_exists(__DIR__ . DIRECTORY_SEPARATOR . 'vendor/autoload.php'))
+{
+	exit
+	(
+<<<EOT
+<p>Dependecies are missing, please check the
+<a href="https://github.com/Icybee/Starter#readme">installation guide</a>.</p>
+EOT
+	);
+}
+
 require_once 'user-access.php';
 require_once 'vendor/autoload.php';
 
@@ -19,21 +30,16 @@ require_once 'vendor/autoload.php';
 
 if (!file_exists(__DIR__ . '/protected/all/config/core.php'))
 {
-	$bootstrap = __DIR__ . '/vendor/icybee/installer/run.php';
+	if (!defined('Icybee\Installer\DIR'))
+	{
+		exit("The core configuration is missing and there is no installer to create it.");
+	}
 
-	if (file_exists($bootstrap))
-	{
-		require_once $bootstrap;
-	}
-	else
-	{
-		throw new Exception("The core configuration is missing and there is no installer to create it.");
-	}
+	require_once Icybee\Installer\DIR . 'run.php';
 }
 else
 {
-	require_once 'vendor/icybee/icybee/bootstrap.php';
-	require_once 'vendor/icybee/icybee/run.php';
+	require_once Icybee\DIR . 'run.php';
 }
 
 #
