@@ -9,8 +9,8 @@
 
 $document = $core->document;
 
-$document->js->add(Icybee\ASSETS . 'mootools-core.js');
-$document->js->add(Icybee\ASSETS . 'mootools-more.js');
+$document->js->add(Icybee\ASSETS . 'mootools.js');
 $document->js->add(ICanBoogie\ASSETS . 'icanboogie.js');
 $document->js->add(Brickrouge\ASSETS . 'brickrouge.js');
+
 $document->css->add(Brickrouge\ASSETS . 'brickrouge.css');
