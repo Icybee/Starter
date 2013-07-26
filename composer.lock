@@ -1,0 +1,1839 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "d64baee55d86395d002e8c1bf4b1dd14",
+    "packages": [
+        {
+            "name": "brickrouge/brickrouge",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ICanBoogie/Brickrouge.git",
+                "reference": "8b96505d95334384890b348e80ca3436f067d68e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ICanBoogie/Brickrouge/zipball/8b96505d95334384890b348e80ca3436f067d68e",
+                "reference": "8b96505d95334384890b348e80ca3436f067d68e",
+                "shasum": ""
+            },
+            "require": {
+                "icanboogie/common": "*",
+                "icanboogie/errors": "*",
+                "icanboogie/prototype": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/"
+                ],
+                "files": [
+                    "bootstrap.php",
+                    "lib/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Laviale",
+                    "email": "olivier.laviale@gmail.com",
+                    "homepage": "http://www.weirdog.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A toolkit to create HTML elements",
+            "homepage": "http://brickrouge.org/",
+            "keywords": [
+                "bootstrap",
+                "element",
+                "form",
+                "html",
+                "widget"
+            ],
+            "time": "2013-07-22 15:25:25"
+        },
+        {
+            "name": "brickrouge/css-class-names",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Brickrouge/CSSClassNames.git",
+                "reference": "21e3adb1176d7a36fc3767fc8b4bd1d63a75ed29"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Brickrouge/CSSClassNames/zipball/21e3adb1176d7a36fc3767fc8b4bd1d63a75ed29",
+                "reference": "21e3adb1176d7a36fc3767fc8b4bd1d63a75ed29",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/"
+                ],
+                "files": [
+                    "lib/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Laviale",
+                    "email": "olivier.laviale@gmail.com",
+                    "homepage": "http://www.weirdog.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "An API to support CSS class names.",
+            "homepage": "http://icanboogie.org/",
+            "keywords": [
+                "class names",
+                "css"
+            ],
+            "time": "2013-04-10 13:01:06"
+        },
+        {
+            "name": "icanboogie/activerecord",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ICanBoogie/ActiveRecord.git",
+                "reference": "e8b410c706e607ee77002aa7f620e8c6b3bf4522"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ICanBoogie/ActiveRecord/zipball/e8b410c706e607ee77002aa7f620e8c6b3bf4522",
+                "reference": "e8b410c706e607ee77002aa7f620e8c6b3bf4522",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "icanboogie/datetime": "*",
+                "icanboogie/inflector": "*",
+                "icanboogie/prototype": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/"
+                ],
+                "files": [
+                    "lib/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Laviale",
+                    "email": "olivier.laviale@gmail.com",
+                    "homepage": "http://www.weirdog.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "ActiveRecord Object-relational mapping",
+            "homepage": "http://icanboogie.org/",
+            "keywords": [
+                "activerecord",
+                "database",
+                "orm"
+            ],
+            "time": "2013-07-24 09:24:04"
+        },
+        {
+            "name": "icanboogie/common",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ICanBoogie/Common.git",
+                "reference": "cc17f724ec981b22a28cccec65d1cd231c0a354b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ICanBoogie/Common/zipball/cc17f724ec981b22a28cccec65d1cd231c0a354b",
+                "reference": "cc17f724ec981b22a28cccec65d1cd231c0a354b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/"
+                ],
+                "files": [
+                    "bootstrap.php",
+                    "lib/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Laviale",
+                    "email": "olivier.laviale@gmail.com",
+                    "homepage": "http://www.weirdog.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Common helpers and classes for ICanBoogie",
+            "homepage": "http://icanboogie.org/",
+            "keywords": [
+                "toolkit"
+            ],
+            "time": "2013-05-15 13:51:28"
+        },
+        {
+            "name": "icanboogie/datetime",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ICanBoogie/DateTime.git",
+                "reference": "5bf056fd3f913d040f132661cd64fddb5ac0ace6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ICanBoogie/DateTime/zipball/5bf056fd3f913d040f132661cd64fddb5ac0ace6",
+                "reference": "5bf056fd3f913d040f132661cd64fddb5ac0ace6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "icanboogie/common": "@dev"
+            },
+            "suggest": {
+                "icanboogie/common": "Allows finer exceptions to be thrown"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Laviale",
+                    "email": "olivier.laviale@gmail.com",
+                    "homepage": "http://www.weirdog.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Extends the features of PHP DateTime and DateTimeZone",
+            "homepage": "http://icanboogie.org/",
+            "keywords": [
+                "date",
+                "time",
+                "timezone"
+            ],
+            "time": "2013-04-23 08:41:47"
+        },
+        {
+            "name": "icanboogie/errors",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ICanBoogie/Errors.git",
+                "reference": "19827f74f19c4ab26cbd9542a425e6e8b9871233"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ICanBoogie/Errors/zipball/19827f74f19c4ab26cbd9542a425e6e8b9871233",
+                "reference": "19827f74f19c4ab26cbd9542a425e6e8b9871233",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Laviale",
+                    "email": "olivier.laviale@gmail.com",
+                    "homepage": "http://www.weirdog.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "An error collector",
+            "homepage": "http://icanboogie.org/",
+            "keywords": [
+                "errors"
+            ],
+            "time": "2012-12-30 17:23:24"
+        },
+        {
+            "name": "icanboogie/event",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ICanBoogie/Event.git",
+                "reference": "75ffa35a1c0665216597364506a91d8f33ee9d0d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ICanBoogie/Event/zipball/75ffa35a1c0665216597364506a91d8f33ee9d0d",
+                "reference": "75ffa35a1c0665216597364506a91d8f33ee9d0d",
+                "shasum": ""
+            },
+            "require": {
+                "icanboogie/common": "*",
+                "icanboogie/inflector": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Laviale",
+                    "email": "olivier.laviale@gmail.com",
+                    "homepage": "http://www.weirdog.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Provides an event API",
+            "homepage": "http://icanboogie.org/",
+            "keywords": [
+                "toolkit"
+            ],
+            "time": "2013-06-13 12:35:20"
+        },
+        {
+            "name": "icanboogie/http",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ICanBoogie/HTTP.git",
+                "reference": "09a5606c6706a6898229220881aeca8f519a7f19"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ICanBoogie/HTTP/zipball/09a5606c6706a6898229220881aeca8f519a7f19",
+                "reference": "09a5606c6706a6898229220881aeca8f519a7f19",
+                "shasum": ""
+            },
+            "require": {
+                "icanboogie/event": "*",
+                "icanboogie/prototype": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/"
+                ],
+                "files": [
+                    "lib/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Laviale",
+                    "email": "olivier.laviale@gmail.com",
+                    "homepage": "http://www.weirdog.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Provides an API to handle HTTP requests.",
+            "homepage": "http://icanboogie.org/",
+            "keywords": [
+                "dispatcher",
+                "http",
+                "request",
+                "response"
+            ],
+            "time": "2013-07-22 12:54:04"
+        },
+        {
+            "name": "icanboogie/i18n",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ICanBoogie/I18n.git",
+                "reference": "40bdabc40808ed40324a221b4f488631d830b287"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ICanBoogie/I18n/zipball/40bdabc40808ed40324a221b4f488631d830b287",
+                "reference": "40bdabc40808ed40324a221b4f488631d830b287",
+                "shasum": ""
+            },
+            "require": {
+                "icanboogie/common": "*",
+                "icanboogie/prototype": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/"
+                ],
+                "files": [
+                    "bootstrap.php",
+                    "lib/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Laviale",
+                    "email": "olivier.laviale@gmail.com",
+                    "homepage": "http://www.weirdog.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "I18n framework",
+            "homepage": "http://icanboogie.org/",
+            "keywords": [
+                "i18n"
+            ],
+            "time": "2013-07-24 09:30:52"
+        },
+        {
+            "name": "icanboogie/icanboogie",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ICanBoogie/ICanBoogie.git",
+                "reference": "ff6d6d1524ad7d976e04261af6c319e330295295"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ICanBoogie/ICanBoogie/zipball/ff6d6d1524ad7d976e04261af6c319e330295295",
+                "reference": "ff6d6d1524ad7d976e04261af6c319e330295295",
+                "shasum": ""
+            },
+            "require": {
+                "icanboogie/activerecord": "*",
+                "icanboogie/common": "*",
+                "icanboogie/datetime": "*",
+                "icanboogie/errors": "*",
+                "icanboogie/event": "*",
+                "icanboogie/http": "*",
+                "icanboogie/i18n": "*",
+                "icanboogie/inflector": "*",
+                "icanboogie/module": "*",
+                "icanboogie/operation": "*",
+                "icanboogie/prototype": "*",
+                "icanboogie/routing": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/"
+                ],
+                "files": [
+                    "bootstrap.php",
+                    "lib/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Laviale",
+                    "email": "olivier.laviale@gmail.com",
+                    "homepage": "http://www.weirdog.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "High-performance object-oriented micro-framework for PHP5.3+",
+            "homepage": "http://icanboogie.org/",
+            "keywords": [
+                "framework"
+            ],
+            "time": "2013-07-22 14:05:38"
+        },
+        {
+            "name": "icanboogie/image",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ICanBoogie/Image.git",
+                "reference": "5844ab04241626fd45ba1aeca03f1185bba3eaaf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ICanBoogie/Image/zipball/5844ab04241626fd45ba1aeca03f1185bba3eaaf",
+                "reference": "5844ab04241626fd45ba1aeca03f1185bba3eaaf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Laviale",
+                    "email": "olivier.laviale@gmail.com",
+                    "homepage": "http://www.weirdog.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Support for images and colors.",
+            "homepage": "http://icanboogie.org/",
+            "keywords": [
+                "library"
+            ],
+            "time": "2013-06-12 08:26:51"
+        },
+        {
+            "name": "icanboogie/inflector",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ICanBoogie/Inflector.git",
+                "reference": "ea19551221d0ef1b01125f3f366533a42bd31da0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ICanBoogie/Inflector/zipball/ea19551221d0ef1b01125f3f366533a42bd31da0",
+                "reference": "ea19551221d0ef1b01125f3f366533a42bd31da0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/"
+                ],
+                "files": [
+                    "lib/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Laviale",
+                    "email": "olivier.laviale@gmail.com",
+                    "homepage": "http://www.weirdog.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The Inflector transforms words from singular to plural, underscore to camel case, titelize words and more.",
+            "homepage": "http://icanboogie.org/",
+            "keywords": [
+                "camelize",
+                "hyphenate",
+                "inflect",
+                "pluralize",
+                "singularize",
+                "underscore"
+            ],
+            "time": "2013-03-14 16:29:20"
+        },
+        {
+            "name": "icanboogie/module",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ICanBoogie/Module.git",
+                "reference": "23a99b7a45981fa8f34a6013c737b3257be57913"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ICanBoogie/Module/zipball/23a99b7a45981fa8f34a6013c737b3257be57913",
+                "reference": "23a99b7a45981fa8f34a6013c737b3257be57913",
+                "shasum": ""
+            },
+            "require": {
+                "icanboogie/activerecord": "*",
+                "icanboogie/common": "*",
+                "icanboogie/errors": "*",
+                "icanboogie/inflector": "*",
+                "icanboogie/prototype": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Laviale",
+                    "email": "olivier.laviale@gmail.com",
+                    "homepage": "http://www.weirdog.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Provides module support to ICanBoogie.",
+            "homepage": "http://icanboogie.org/",
+            "keywords": [
+                "framework",
+                "module"
+            ],
+            "time": "2013-07-22 14:05:02"
+        },
+        {
+            "name": "icanboogie/module-installer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ICanBoogie/modules-installer.git",
+                "reference": "ca3b386606497c02442e529e8370971d5a6b481f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ICanBoogie/modules-installer/zipball/ca3b386606497c02442e529e8370971d5a6b481f",
+                "reference": "ca3b386606497c02442e529e8370971d5a6b481f",
+                "shasum": ""
+            },
+            "type": "composer-installer",
+            "extra": {
+                "class": "ICanBoogie\\Composer\\ModuleInstaller"
+            },
+            "autoload": {
+                "psr-0": {
+                    "ICanBoogie\\Composer": "lib/"
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Module installer for ICanBoogie",
+            "time": "2013-04-29 13:35:25"
+        },
+        {
+            "name": "icanboogie/operation",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ICanBoogie/Operation.git",
+                "reference": "4e6fb57b52ea40ee9b9703f979bb1b17372ad4d0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ICanBoogie/Operation/zipball/4e6fb57b52ea40ee9b9703f979bb1b17372ad4d0",
+                "reference": "4e6fb57b52ea40ee9b9703f979bb1b17372ad4d0",
+                "shasum": ""
+            },
+            "require": {
+                "icanboogie/errors": "*",
+                "icanboogie/event": "*",
+                "icanboogie/http": "*",
+                "icanboogie/routing": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Laviale",
+                    "email": "olivier.laviale@gmail.com",
+                    "homepage": "http://www.weirdog.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Operations, the doers of the MOVE world",
+            "homepage": "http://icanboogie.org/",
+            "keywords": [
+                "controller",
+                "dispatch",
+                "operation",
+                "request",
+                "response"
+            ],
+            "time": "2013-06-12 08:43:22"
+        },
+        {
+            "name": "icanboogie/prototype",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ICanBoogie/Prototype.git",
+                "reference": "c2b2aff5e0620b1e46b5ce8c11f8adaf80deeca8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ICanBoogie/Prototype/zipball/c2b2aff5e0620b1e46b5ce8c11f8adaf80deeca8",
+                "reference": "c2b2aff5e0620b1e46b5ce8c11f8adaf80deeca8",
+                "shasum": ""
+            },
+            "require": {
+                "icanboogie/common": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/"
+                ],
+                "files": [
+                    "lib/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Laviale",
+                    "email": "olivier.laviale@gmail.com",
+                    "homepage": "http://www.weirdog.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Implements the Prototype design pattern; getters/setters",
+            "homepage": "http://icanboogie.org/",
+            "keywords": [
+                "library"
+            ],
+            "time": "2013-04-03 08:56:42"
+        },
+        {
+            "name": "icanboogie/routing",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ICanBoogie/Routing.git",
+                "reference": "712c7626db60daa6c5a39633d10fdde6b3defc20"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ICanBoogie/Routing/zipball/712c7626db60daa6c5a39633d10fdde6b3defc20",
+                "reference": "712c7626db60daa6c5a39633d10fdde6b3defc20",
+                "shasum": ""
+            },
+            "require": {
+                "icanboogie/http": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/"
+                ],
+                "files": [
+                    "lib/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Laviale",
+                    "email": "olivier.laviale@gmail.com",
+                    "homepage": "http://www.weirdog.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Request routing.",
+            "homepage": "http://icanboogie.org/",
+            "keywords": [
+                "library"
+            ],
+            "time": "2013-06-12 08:41:14"
+        },
+        {
+            "name": "icybee/bluetihi",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Icybee/BlueTihi.git",
+                "reference": "a6075b4e042dd5290e1c6275515ad5f155c08279"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Icybee/BlueTihi/zipball/a6075b4e042dd5290e1c6275515ad5f155c08279",
+                "reference": "a6075b4e042dd5290e1c6275515ad5f155c08279",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/"
+                ],
+                "files": [
+                    "lib/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Laviale",
+                    "email": "olivier.laviale@gmail.com",
+                    "homepage": "http://www.weirdog.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Blueprint for template engines",
+            "homepage": "http://icybee.org/",
+            "keywords": [
+                "templating"
+            ],
+            "time": "2013-03-10 09:32:07"
+        },
+        {
+            "name": "icybee/icybee",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Icybee/Icybee.git",
+                "reference": "1d917ebdb139f4de7a4ebf94ca83c6ef5a424612"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Icybee/Icybee/zipball/1d917ebdb139f4de7a4ebf94ca83c6ef5a424612",
+                "reference": "1d917ebdb139f4de7a4ebf94ca83c6ef5a424612",
+                "shasum": ""
+            },
+            "require": {
+                "brickrouge/brickrouge": "*",
+                "icanboogie/icanboogie": "*",
+                "icanboogie/image": "*",
+                "icybee/bluetihi": "*",
+                "icybee/module-cache": "*",
+                "icybee/module-contents": "*",
+                "icybee/module-dashboard": "*",
+                "icybee/module-editor": "*",
+                "icybee/module-files": "*",
+                "icybee/module-forms": "*",
+                "icybee/module-images": "*",
+                "icybee/module-modules": "*",
+                "icybee/module-nodes": "*",
+                "icybee/module-pages": "*",
+                "icybee/module-sites": "*",
+                "icybee/module-thumbnailer": "*",
+                "icybee/module-users": "*",
+                "icybee/module-views": "*",
+                "icybee/patron": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/",
+                    "includes/",
+                    "modules/"
+                ],
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Laviale",
+                    "email": "olivier.laviale@gmail.com",
+                    "homepage": "http://www.weirdog.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A buzzing CMS for PHP5.3+",
+            "homepage": "http://icybee.org/",
+            "keywords": [
+                "cms"
+            ],
+            "time": "2013-07-25 09:50:15"
+        },
+        {
+            "name": "icybee/installer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Icybee/Installer.git",
+                "reference": "f2f6578943494aa81c7fd58693ce2309e4c9ac14"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Icybee/Installer/zipball/f2f6578943494aa81c7fd58693ce2309e4c9ac14",
+                "reference": "f2f6578943494aa81c7fd58693ce2309e4c9ac14",
+                "shasum": ""
+            },
+            "require": {
+                "icanboogie/icanboogie": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/"
+                ],
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Laviale",
+                    "email": "olivier.laviale@gmail.com",
+                    "homepage": "http://www.weirdog.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Icybee installer",
+            "homepage": "http://icybee.org/",
+            "keywords": [
+                "installer"
+            ],
+            "time": "2013-07-25 09:47:28"
+        },
+        {
+            "name": "icybee/module-articles",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Icybee/module-articles.git",
+                "reference": "c1ddf56576085c7d42f564ddcc94067a04f2e377"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Icybee/module-articles/zipball/c1ddf56576085c7d42f564ddcc94067a04f2e377",
+                "reference": "c1ddf56576085c7d42f564ddcc94067a04f2e377",
+                "shasum": ""
+            },
+            "require": {
+                "icanboogie/module-installer": "*",
+                "icybee/module-contents": "*",
+                "php": ">=5.3.0"
+            },
+            "suggest": {
+                "icybee/module-comments": "Allows users to attach comments to nodes."
+            },
+            "type": "icanboogie-module",
+            "autoload": {
+                "classmap": [
+                    "lib"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Laviale",
+                    "email": "olivier.laviale@gmail.com",
+                    "homepage": "http://www.weirdog.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Introduces the Article content type to the CMS Icybee.",
+            "keywords": [
+                "article",
+                "blog",
+                "node"
+            ],
+            "time": "2013-05-19 18:27:40"
+        },
+        {
+            "name": "icybee/module-cache",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Icybee/module-cache.git",
+                "reference": "18c2957e15c94c5982cdf7685360744e9bd02e78"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Icybee/module-cache/zipball/18c2957e15c94c5982cdf7685360744e9bd02e78",
+                "reference": "18c2957e15c94c5982cdf7685360744e9bd02e78",
+                "shasum": ""
+            },
+            "require": {
+                "icanboogie/module-installer": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "icanboogie-module",
+            "autoload": {
+                "classmap": [
+                    "lib"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Laviale",
+                    "email": "olivier.laviale@gmail.com",
+                    "homepage": "http://www.weirdog.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Provides a common API and a centralized place to manage caches.",
+            "keywords": [
+                "cache"
+            ],
+            "time": "2013-07-24 12:24:44"
+        },
+        {
+            "name": "icybee/module-comments",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Icybee/module-comments.git",
+                "reference": "19d36167dd1101e41d545297343353c2b7ded334"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Icybee/module-comments/zipball/19d36167dd1101e41d545297343353c2b7ded334",
+                "reference": "19d36167dd1101e41d545297343353c2b7ded334",
+                "shasum": ""
+            },
+            "require": {
+                "brickrouge/css-class-names": "*",
+                "icanboogie/activerecord": "*",
+                "icanboogie/module-installer": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "icanboogie-module",
+            "autoload": {
+                "classmap": [
+                    "lib/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Laviale",
+                    "email": "olivier.laviale@gmail.com",
+                    "homepage": "http://www.weirdog.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Allows users comments to be attached to nodes.",
+            "homepage": "http://icybee.org/",
+            "keywords": [
+                "comment"
+            ],
+            "time": "2013-07-25 13:45:23"
+        },
+        {
+            "name": "icybee/module-contents",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Icybee/module-contents.git",
+                "reference": "788d64b0a1e2cf1f0d5151a378a167f5416205e7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Icybee/module-contents/zipball/788d64b0a1e2cf1f0d5151a378a167f5416205e7",
+                "reference": "788d64b0a1e2cf1f0d5151a378a167f5416205e7",
+                "shasum": ""
+            },
+            "require": {
+                "icanboogie/module-installer": "*",
+                "icybee/module-nodes": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "icanboogie-module",
+            "autoload": {
+                "classmap": [
+                    "lib"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Laviale",
+                    "email": "olivier.laviale@gmail.com",
+                    "homepage": "http://www.weirdog.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Base module for content nodes such as articles or news.",
+            "keywords": [
+                "file",
+                "upload"
+            ],
+            "time": "2013-07-24 12:25:01"
+        },
+        {
+            "name": "icybee/module-dashboard",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Icybee/module-dashboard.git",
+                "reference": "91f8b7ebf73224b1f8a0d4c62f26909eb4d526d9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Icybee/module-dashboard/zipball/91f8b7ebf73224b1f8a0d4c62f26909eb4d526d9",
+                "reference": "91f8b7ebf73224b1f8a0d4c62f26909eb4d526d9",
+                "shasum": ""
+            },
+            "require": {
+                "icanboogie/module-installer": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "icanboogie-module",
+            "autoload": {
+                "classmap": [
+                    "lib"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Laviale",
+                    "email": "olivier.laviale@gmail.com",
+                    "homepage": "http://www.weirdog.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Hosts widgets that display information about what is happening in Icybee.",
+            "keywords": [
+                "dashboard"
+            ],
+            "time": "2013-05-15 15:40:21"
+        },
+        {
+            "name": "icybee/module-editor",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Icybee/module-editor.git",
+                "reference": "4d1bed99ac465d928aca87d8f54fecdc5652c049"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Icybee/module-editor/zipball/4d1bed99ac465d928aca87d8f54fecdc5652c049",
+                "reference": "4d1bed99ac465d928aca87d8f54fecdc5652c049",
+                "shasum": ""
+            },
+            "require": {
+                "icanboogie/common": "*",
+                "icanboogie/module-installer": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "icanboogie/event": "*"
+            },
+            "type": "icanboogie-module",
+            "autoload": {
+                "classmap": [
+                    "lib"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Laviale",
+                    "email": "olivier.laviale@gmail.com",
+                    "homepage": "http://www.weirdog.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Provides an API to manage and use editors, as well as several editors.",
+            "keywords": [
+                "editor"
+            ],
+            "time": "2013-06-12 14:01:04"
+        },
+        {
+            "name": "icybee/module-files",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Icybee/module-files.git",
+                "reference": "8e3c1b3d497174bc37b88a22a249f0c5fdbd17d2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Icybee/module-files/zipball/8e3c1b3d497174bc37b88a22a249f0c5fdbd17d2",
+                "reference": "8e3c1b3d497174bc37b88a22a249f0c5fdbd17d2",
+                "shasum": ""
+            },
+            "require": {
+                "icanboogie/activerecord": "*",
+                "icanboogie/module-installer": "*",
+                "icybee/module-nodes": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "icanboogie-module",
+            "autoload": {
+                "classmap": [
+                    "lib"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Laviale",
+                    "email": "olivier.laviale@gmail.com",
+                    "homepage": "http://www.weirdog.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Manages the files uploaded by the users of the CMS Icybee.",
+            "keywords": [
+                "file",
+                "upload"
+            ],
+            "time": "2013-07-24 12:25:24"
+        },
+        {
+            "name": "icybee/module-forms",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Icybee/module-forms.git",
+                "reference": "527a4974c85d15284861e77b3a73b97690fd1f58"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Icybee/module-forms/zipball/527a4974c85d15284861e77b3a73b97690fd1f58",
+                "reference": "527a4974c85d15284861e77b3a73b97690fd1f58",
+                "shasum": ""
+            },
+            "require": {
+                "icanboogie/module-installer": "*",
+                "icybee/module-nodes": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "icanboogie-module",
+            "autoload": {
+                "classmap": [
+                    "lib"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Laviale",
+                    "email": "olivier.laviale@gmail.com",
+                    "homepage": "http://www.weirdog.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Provides form management support to Icybee.",
+            "keywords": [
+                "form"
+            ],
+            "time": "2013-07-25 13:52:43"
+        },
+        {
+            "name": "icybee/module-images",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Icybee/module-images.git",
+                "reference": "0e7cbb7f0212f63100e7923dbccc749808d4b214"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Icybee/module-images/zipball/0e7cbb7f0212f63100e7923dbccc749808d4b214",
+                "reference": "0e7cbb7f0212f63100e7923dbccc749808d4b214",
+                "shasum": ""
+            },
+            "require": {
+                "icanboogie/module-installer": "*",
+                "icybee/module-files": "*",
+                "icybee/module-thumbnailer": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "icanboogie-module",
+            "autoload": {
+                "classmap": [
+                    "lib"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Laviale",
+                    "email": "olivier.laviale@gmail.com",
+                    "homepage": "http://www.weirdog.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Manages the images uploaded by the users of the CMS Icybee.",
+            "keywords": [
+                "file",
+                "upload"
+            ],
+            "time": "2013-07-24 14:40:27"
+        },
+        {
+            "name": "icybee/module-modules",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Icybee/module-modules.git",
+                "reference": "ed545fb472ac44a0ee7906b6a4da80772040151a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Icybee/module-modules/zipball/ed545fb472ac44a0ee7906b6a4da80772040151a",
+                "reference": "ed545fb472ac44a0ee7906b6a4da80772040151a",
+                "shasum": ""
+            },
+            "require": {
+                "icanboogie/module-installer": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "icanboogie-module",
+            "autoload": {
+                "classmap": [
+                    "lib"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Laviale",
+                    "email": "olivier.laviale@gmail.com",
+                    "homepage": "http://www.weirdog.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Modules management.",
+            "keywords": [
+                "module"
+            ],
+            "time": "2013-07-24 12:27:19"
+        },
+        {
+            "name": "icybee/module-nodes",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Icybee/module-nodes.git",
+                "reference": "5922d26c36be8593df58840c1a3e3a52a67caa38"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Icybee/module-nodes/zipball/5922d26c36be8593df58840c1a3e3a52a67caa38",
+                "reference": "5922d26c36be8593df58840c1a3e3a52a67caa38",
+                "shasum": ""
+            },
+            "require": {
+                "brickrouge/css-class-names": "*",
+                "icanboogie/activerecord": "*",
+                "icanboogie/module-installer": "*",
+                "icybee/module-users": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "icanboogie/event": "*"
+            },
+            "type": "icanboogie-module",
+            "autoload": {
+                "classmap": [
+                    "lib"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Laviale",
+                    "email": "olivier.laviale@gmail.com",
+                    "homepage": "http://www.weirdog.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Implements Nodes",
+            "keywords": [
+                "node"
+            ],
+            "time": "2013-07-24 14:54:45"
+        },
+        {
+            "name": "icybee/module-pages",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Icybee/module-pages.git",
+                "reference": "76e31d2fc39e559179192daf6b37e8882787b3b6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Icybee/module-pages/zipball/76e31d2fc39e559179192daf6b37e8882787b3b6",
+                "reference": "76e31d2fc39e559179192daf6b37e8882787b3b6",
+                "shasum": ""
+            },
+            "require": {
+                "icanboogie/activerecord": "*",
+                "icanboogie/module-installer": "*",
+                "icybee/module-nodes": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "icanboogie-module",
+            "autoload": {
+                "classmap": [
+                    "lib"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Laviale",
+                    "email": "olivier.laviale@gmail.com",
+                    "homepage": "http://www.weirdog.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Manages pages.",
+            "keywords": [
+                "Sitemap",
+                "page"
+            ],
+            "time": "2013-07-24 12:28:04"
+        },
+        {
+            "name": "icybee/module-search",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Icybee/module-search.git",
+                "reference": "1fc0a4a0a3c02f6d14d1334abcfdb6f58c561956"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Icybee/module-search/zipball/1fc0a4a0a3c02f6d14d1334abcfdb6f58c561956",
+                "reference": "1fc0a4a0a3c02f6d14d1334abcfdb6f58c561956",
+                "shasum": ""
+            },
+            "require": {
+                "icanboogie/module-installer": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "icanboogie-module",
+            "autoload": {
+                "classmap": [
+                    "lib"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Laviale",
+                    "email": "olivier.laviale@gmail.com",
+                    "homepage": "http://www.weirdog.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Provides a search engine for contents and pages.",
+            "keywords": [
+                "search"
+            ],
+            "time": "2013-05-19 16:10:04"
+        },
+        {
+            "name": "icybee/module-seo",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Icybee/module-seo.git",
+                "reference": "a332a0307a368ac49a71d9765b395f08aac3c849"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Icybee/module-seo/zipball/a332a0307a368ac49a71d9765b395f08aac3c849",
+                "reference": "a332a0307a368ac49a71d9765b395f08aac3c849",
+                "shasum": ""
+            },
+            "require": {
+                "icanboogie/module-installer": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "icanboogie-module",
+            "autoload": {
+                "classmap": [
+                    "lib"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Laviale",
+                    "email": "olivier.laviale@gmail.com",
+                    "homepage": "http://www.weirdog.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Provides search engine optimization",
+            "keywords": [
+                "seo"
+            ],
+            "time": "2013-04-29 13:25:34"
+        },
+        {
+            "name": "icybee/module-sites",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Icybee/module-sites.git",
+                "reference": "51b8a4bd21c0f06e853887274c249b66ba72179d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Icybee/module-sites/zipball/51b8a4bd21c0f06e853887274c249b66ba72179d",
+                "reference": "51b8a4bd21c0f06e853887274c249b66ba72179d",
+                "shasum": ""
+            },
+            "require": {
+                "icanboogie/activerecord": "*",
+                "icanboogie/module-installer": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "icanboogie-module",
+            "autoload": {
+                "classmap": [
+                    "lib"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Laviale",
+                    "email": "olivier.laviale@gmail.com",
+                    "homepage": "http://www.weirdog.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Manages websites",
+            "keywords": [
+                "website"
+            ],
+            "time": "2013-07-24 12:28:18"
+        },
+        {
+            "name": "icybee/module-thumbnailer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Icybee/module-thumbnailer.git",
+                "reference": "b377330374abbc462416de11581ccb37bc874827"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Icybee/module-thumbnailer/zipball/b377330374abbc462416de11581ccb37bc874827",
+                "reference": "b377330374abbc462416de11581ccb37bc874827",
+                "shasum": ""
+            },
+            "require": {
+                "brickrouge/brickrouge": "*",
+                "icanboogie/event": "*",
+                "icanboogie/image": "*",
+                "icanboogie/module-installer": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "icybee/module-images": "*"
+            },
+            "suggest": {
+                "icybee/module-cache": "Allows thumbnails cache management from Icybee admin."
+            },
+            "type": "icanboogie-module",
+            "autoload": {
+                "classmap": [
+                    "lib/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Laviale",
+                    "email": "olivier.laviale@gmail.com",
+                    "homepage": "http://www.weirdog.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Creates thumbnails on demand.",
+            "homepage": "http://icybee.org/",
+            "keywords": [
+                "thumbnail"
+            ],
+            "time": "2013-07-25 09:10:45"
+        },
+        {
+            "name": "icybee/module-users",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Icybee/module-users.git",
+                "reference": "8276e06e5e6295fbae7dea6b3b2779ef7172203d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Icybee/module-users/zipball/8276e06e5e6295fbae7dea6b3b2779ef7172203d",
+                "reference": "8276e06e5e6295fbae7dea6b3b2779ef7172203d",
+                "shasum": ""
+            },
+            "require": {
+                "brickrouge/css-class-names": "*",
+                "icanboogie/activerecord": "*",
+                "icanboogie/event": "*",
+                "icanboogie/module-installer": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "icanboogie-module",
+            "autoload": {
+                "classmap": [
+                    "lib"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Laviale",
+                    "email": "olivier.laviale@gmail.com",
+                    "homepage": "http://www.weirdog.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Manages the users of the CMS Icybee",
+            "keywords": [
+                "login",
+                "user"
+            ],
+            "time": "2013-07-24 12:28:35"
+        },
+        {
+            "name": "icybee/module-views",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Icybee/module-views.git",
+                "reference": "a26fe705c0dea254d9cee96c2854fdae6fe9ead3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Icybee/module-views/zipball/a26fe705c0dea254d9cee96c2854fdae6fe9ead3",
+                "reference": "a26fe705c0dea254d9cee96c2854fdae6fe9ead3",
+                "shasum": ""
+            },
+            "require": {
+                "icanboogie/module-installer": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "icanboogie-module",
+            "autoload": {
+                "classmap": [
+                    "lib"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Laviale",
+                    "email": "olivier.laviale@gmail.com",
+                    "homepage": "http://www.weirdog.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Allows dynamic data from modules to be displayed in content zones.",
+            "keywords": [
+                "view"
+            ],
+            "time": "2013-06-12 09:01:16"
+        },
+        {
+            "name": "icybee/patron",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Icybee/Patron.git",
+                "reference": "0c99865c60d89c3ed21ca3c600c1a114dbba3c5b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Icybee/Patron/zipball/0c99865c60d89c3ed21ca3c600c1a114dbba3c5b",
+                "reference": "0c99865c60d89c3ed21ca3c600c1a114dbba3c5b",
+                "shasum": ""
+            },
+            "require": {
+                "icanboogie/common": "*",
+                "php": ">=5.3.0"
+            },
+            "suggest": {
+                "icanboogie/i18n": "Required to use the translation notation and markup."
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/"
+                ],
+                "files": [
+                    "bootstrap.php",
+                    "lib/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Laviale",
+                    "email": "olivier.laviale@gmail.com",
+                    "homepage": "http://www.weirdog.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A HTML template engine for PHP5.3+",
+            "homepage": "https://github.com/Icybee/Patron",
+            "keywords": [
+                "engine",
+                "html",
+                "template"
+            ],
+            "time": "2013-05-06 14:03:10"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": [
+
+    ],
+    "platform": {
+        "php": ">=5.3.0"
+    },
+    "platform-dev": [
+
+    ]
+}
