@@ -16,9 +16,24 @@
 <div class="container">
 	<div class="body-inner">
 		<p:alerts />
-		
+
+		<!--div class="hero-unit">
+			<h1>#{@title}</h1>
+			<p:page:content id="hero" title="À propos" />
+		</div-->
+	
 		<div class="body-content">
 			<p:page:content id="body" title="Body of the page" />
+		
+			<p:if test="@site.resolve_view_target('news/list')">
+				<h2><a href="#{url:news/list}">News</a></h2>
+				<p:call-view name="news/home" />
+			</p:if>
+			
+			<p:if test="@site.resolve_view_target('articles/list')">
+				<h2><a href="#{url:articles/list}">Articles</a></h2>
+				<p:call-view name="articles/home" />
+			</p:if>
 		</div>
 	</div>
 </div>

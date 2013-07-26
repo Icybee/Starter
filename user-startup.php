@@ -13,4 +13,6 @@ $document->js->add(Icybee\ASSETS . 'mootools.js');
 $document->js->add(ICanBoogie\ASSETS . 'icanboogie.js');
 $document->js->add(Brickrouge\ASSETS . 'brickrouge.js');
 
+$document->css->add('public/bootstrap.css');
+$document->css->add('public/bootstrap-responsive.css');
 $document->css->add(Brickrouge\ASSETS . 'brickrouge.css');

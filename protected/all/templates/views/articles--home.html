@@ -1,0 +1,18 @@
+<div class="row">
+<p:foreach>
+	<div class="span4">
+		<h3><a href="#{@url}">#{@title}</a></h3>
+				
+		<div class="metas">
+			<time>#{@date.format_date()}</time>
+			<wdp:if test="@comments_count">
+			&ndash; <a href="#{@url}#view-comments-list">#{@rendered_comments_count}</a>
+			</wdp:if>
+		</div>
+		
+		#{@excerpt=}
+		
+		<p><a href="#{@url}" class="read-more">#{t:View details}&nbsp;&rarr;</a></p>
+	</div>
+</p:foreach>
+</div>

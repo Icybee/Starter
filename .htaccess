@@ -44,6 +44,9 @@ Options -Indexes
 
 RewriteEngine On
 
+# rewrite repository managed files
+RewriteRule repository/files/[\dA-Z]{8}-([\dA-Z]{48}\.[a-z]+)$ repository/files/$1 [L]
+
 # if a directory or a file exists, use it directly
 RewriteCond %{REQUEST_FILENAME} !-l
 RewriteCond %{REQUEST_FILENAME} !-f
