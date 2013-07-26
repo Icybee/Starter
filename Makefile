@@ -10,15 +10,8 @@ update: composer.phar
 	
 autoload: composer.phar
 	@php composer.phar dump-autoload
-	
-setup:
-	sudo chown www-data:www-data repository -R
 
-doc:
-	@if [ ! -d "vendor" ] ; then \
-		make install ; \
-	fi
-
+doc: vendor
 	@mkdir -p "docs"
 
 	@apigen \
@@ -30,7 +23,7 @@ doc:
 
 cache-clear:
 	@rm -fv ./repository/cache/*/*
-	@rm -fv ./repository/vars/*
+	@rm -fv ./repository/vars/cached_*
 	@rm -fv ./repository/thumbnailer/*
 
 reset: cache-clear
